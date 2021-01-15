@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lyric-DO | Prashil K</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body >
+    <div class="loadersmall" style="display: none;"></div>
+    <div class="container">
+        <section id='header'>
+            <div class="logo"> lyric-DO </div>
+            <div class="search-container">
+                <input type="search" placeholder="Enter song/artist name" name="search" id="inputSearch" class="no-outline">
+                <button class="btn-search no-outline" id="btnSearch">
+                    <i class="fa fa-search" ></i>
+                </button>
+            </div>
+        </section>
+        <section id='mobile-search'>
+        <div class="search-container">
+            <input type="search" name="search" placeholder="Enter song/artist name" id="inputSearchMb" class="no-outline">
+            <button class="btn-search no-outline" id="btnSearchMb">
+                <i class="fa fa-search"></i>
+            </button>
+        </div>
+        </section>
+        <section >
+            <div id="songList" class="ul-wrap"></div>
+            <div class="btn-pagination">
+                <button type="button" class="btn-next"><i class="fa fa-chevron-right"></i></button>
+                <button type="button" class="btn-prev"><i class="fa fa-chevron-left"></i></button>
+            </div>
+        </section>
+
+    </div>
+    <script src="./assets/js/app.js" type="module" ></script>
+</body>
+</html>
